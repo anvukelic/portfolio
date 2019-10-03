@@ -1,0 +1,37 @@
+.header {
+    width: 100vh;
+    height: 100%;
+    padding: 20px;
+    border-bottom: 0.5px solid rgba(255, 255, 255, 0.21);
+}
+
+.header-title-container{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    padding: 30px;
+    border-radius: 15px;
+    transform: translate(-50%, -50%);
+    background: rgba(0, 0, 0, 0.8);
+}
+.header-title {
+    color: #579452;
+    font-family: "Courier New", cursive;
+}
+
+.code-key-word {
+    color: #b75a00;
+}
+
+.code-function-name {
+    color: #a58700;
+}
+
+.code-regular {
+    color: white;
+}
+
+.code-regular-italic {
+    color: white;
+    font-style: italic;
+}

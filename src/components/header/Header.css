@@ -2,10 +2,9 @@
     width: 100vh;
     height: 100%;
     padding: 20px;
-    border-bottom: 0.5px solid rgba(255, 255, 255, 0.21);
 }
 
-.header-title-container{
+.header-title-container {
     position: absolute;
     left: 50%;
     top: 50%;
@@ -14,9 +13,36 @@
     transform: translate(-50%, -50%);
     background: rgba(0, 0, 0, 0.8);
 }
+
 .header-title {
     color: #579452;
     font-family: "Courier New", cursive;
+}
+
+.nav-top {
+    position: absolute;
+    right: 30px;
+    top: 30px;
+}
+
+.nav-top-item {
+    margin-left: 35px;
+}
+
+.nav-top-item-icon {
+    color: #fff;
+    width: 35px;
+    height: 35px
+}
+
+.about-me-avatar {
+    height: 30px;
+    object-fit: cover;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30px;
+    border-radius: 150px;
+    border: 2px solid white;
 }
 
 .code-key-word {

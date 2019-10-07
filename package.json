@@ -3,12 +3,18 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "bootstrap": "^4.3.1",
     "react": "^16.10.1",
+    "react-bootstrap": "^1.0.0-beta.14",
     "react-dom": "^16.10.1",
+    "react-icons": "^3.7.0",
     "react-reveal": "^1.2.2",
-    "react-scripts": "0.9.5"
+    "react-scripts": "0.9.5",
+    "react-sidebar": "^3.0.2"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "@fortawesome/fontawesome-free": "^5.11.2"
+  },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",

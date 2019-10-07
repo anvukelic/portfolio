@@ -1,17 +1,32 @@
-import React, {Component} from 'react';
+import React, {Component, useRef} from 'react';
 import './Header.css';
 import {Fade} from "react-reveal";
+import Nav from "react-bootstrap/Nav";
+import {FaLinkedinIn, FaFacebookF, FaGithub} from "react-icons/fa";
 
 class HeaderComponent extends Component {
     render() {
         return (
             <div className="header">
+                <div className="nav-top">
+                    <Nav activeKey={"/home"}>
+                        <Nav.Item>
+                            <Nav.Item><a href="https://www.facebook.com/an.vuk" className="nav-top-item"><FaFacebookF
+                                className="nav-top-item-icon"/></a></Nav.Item>
+                        </Nav.Item>
+                        <Nav.Item><a href="https://www.linkedin.com/in/anvukelic/"
+                                     className="nav-top-item"><FaLinkedinIn
+                            className="nav-top-item-icon"/></a></Nav.Item>
+                        <Nav.Item><a href="https://www.github.com/avukelic/" className="nav-top-item"><FaGithub
+                            className="nav-top-item-icon"/></a></Nav.Item>
+                    </Nav>
+                </div>
                 <div className="header-title-container">
                     <Fade>
                         <div className="header-title">
                             <div>
                                 <span className="code-key-word">class </span>
-                                <span className="code-regular">AndrejPortfolio &#123;</span>
+                                <span className="code-regular">AndrejVukelic &#123;</span>
                             </div>
                             <div>&nbsp;&nbsp;&nbsp;&nbsp;
                                 <span className="code-key-word">fun </span>
